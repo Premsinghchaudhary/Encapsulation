@@ -24,9 +24,9 @@ public class Encapu_demo extends Encapu_demo1{
 	}
 	public void cal() 
 	{
-        per=total/5;	 
-        
-    	if(per>80 ) {
+        per=total/5;	//calculate the percentage 
+        //using statement for grading the student
+    	if(per>80 ) {  
     		Grd='A';
     	}
     	else if ( per>60) {
