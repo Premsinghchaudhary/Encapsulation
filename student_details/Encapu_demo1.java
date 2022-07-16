@@ -3,12 +3,15 @@ package Encapsulation;
 import java.util.Scanner;
 
 public class Encapu_demo1  {
+	//declaration of varaiable.......
 	  int roll,maths,eng,java,AI,eco,total;
 	  String name;
+	//scanner object.....
 	  Scanner sc=new Scanner(System.in);
+	
+	  public void accept_data() { //create method 
 	//GET the all details from the user.....
-	  public void accept_data() {
-		System.out.print(" Enter your name:");
+		  System.out.print(" Enter your name:");
 		name=sc.next();
 		System.out.print("Enter your 4 digit roll no:");
 		roll=sc.nextInt();
